@@ -1,3 +1,5 @@
-<p>
-  vote works!
-</p>
+<div *ngFor="let meal of meals">
+  <h2>{{meal.title}} за {{meal.price}}</h2>
+  <button>За</button>
+  <button>Против</button>
+</div>

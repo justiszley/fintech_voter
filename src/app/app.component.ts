@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MEALS } from './meals';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,5 @@ export class AppComponent {
   title = 'Голосуем за еду';
   agree = 0;
   disagree = 0;
+  meals = MEALS;
 }
