@@ -1,4 +1,4 @@
 <h1>{{title}}</h1>
 <p>За {{agree}}</p>
 <p>Против {{disagree}}</p>
-<app-vote [meals]="meals"></app-vote>
+<app-vote [meals]="meals" (decision)="handleDecision($event)"></app-vote>

@@ -11,4 +11,12 @@ export class AppComponent {
   agree = 0;
   disagree = 0;
   meals = MEALS;
+
+  handleDecision(val: boolean) {
+    if (val) {
+      this.agree++;
+    } else {
+      this.disagree++;
+    }
+  }
 }
